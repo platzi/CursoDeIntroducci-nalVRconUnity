@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 2242
+  controlID: 9469
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 2243
+  controlID: 9470
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 2143
+  controlID: 9440
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7a3f0000
-    m_LastClickedID: 16250
-    m_ExpandedIDs: defbffffe0fbffffe2fbffffe4fbffff00000000
+    m_SelectedIDs: 36ddffff
+    m_LastClickedID: -8906
+    m_ExpandedIDs: 7845feff6872ffffdefbffffe0fbffffe2fbffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -283,14 +283,14 @@ MonoBehaviour:
     height: 413
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 489.5285300016403
+  lastFramingTime: 10393.726570010185
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 698, y: 677, z: -250}
+    m_Target: {x: 197.00018, y: 23.796803, z: 165.90785}
     speed: 2
-    m_Value: {x: 698, y: 677, z: -250}
+    m_Value: {x: 197.00018, y: 23.796803, z: 165.90785}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -310,25 +310,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0, y: 0, z: 0, w: -0.99999994}
+    m_Value: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_Size:
-    m_Target: 22
+    m_Target: 1.470061
     speed: 2
-    m_Value: 22
+    m_Value: 1.470061
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LastSceneViewOrtho: 0
@@ -467,20 +467,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StaffOfPain/Prefab
+    - Assets/Audio
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StaffOfPain/Prefab
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/juangabriel/Developer/Projects/Unity/DragonsVR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 343}
-    m_SelectedIDs: 322f0000
-    m_LastClickedID: 12082
-    m_ExpandedIDs: 00000000742d0000de2e0000ee300000423100007e32000080330000583a00005a3b000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 2e530000
+    m_LastClickedID: 21294
+    m_ExpandedIDs: 00000000742d0000de2e0000162f0000ee300000423100007e32000080330000583a00005a3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000742d0000de2e0000ee300000423100007e32000080330000583a00005a3b000000ca9a3b
+    m_ExpandedIDs: 00000000742d0000de2e0000162f0000ee300000423100007e32000080330000583a00005a3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,10 +533,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 7a3f0000
-    m_LastClickedInstanceID: 16250
+    m_SelectedInstanceIDs: 36ddffff
+    m_LastClickedInstanceID: -8906
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300009e76fbff1c9bfbff7c2c0000dc2900007044000074d8feff8c73faffe6430000
+    m_ExpandedInstanceIDs: c62300009e76fbff1c9bfbff7c2c0000dc2900007044000074d8feff8c73faffe643000052f8fbff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16250
+  m_LastSelectedObjectID: -104960
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -635,8 +635,8 @@ MonoBehaviour:
     y: 0
     width: 346
     height: 705
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
