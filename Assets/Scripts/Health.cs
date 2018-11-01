@@ -6,9 +6,14 @@ public class Health : MonoBehaviour {
 
     public DamageType type = DamageType.enemy;
 
+    private Animator animator;
+
 	// Use this for initialization
 	void Start () {
-		
+        if(GetComponent<Animator>()!=null){
+            animator = GetComponent<Animator>();
+            animator.SetFloat("health", HealthPoints);
+        }
 	}
 	
     public float HealthPoints{
@@ -20,8 +25,16 @@ public class Health : MonoBehaviour {
         set{
             healthPoints = value;
 
+            if(animator!=null){
+                animator.SetFloat("health", healthPoints);
+            }
+
             if(healthPoints <= 0){
-                //TODO: gestionar la muerte del personaje / enemigo
+
+                if(type == DamageType.enemy){
+                    Destroy(gameObject, 2.0f);
+                }
+
             }
         }
     }
