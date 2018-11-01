@@ -8,11 +8,13 @@ public class FollowDestination : MonoBehaviour {
     Transform destination;
     public float speed = 5.0f;
     GameObject player;
+    Animator animator;
 
 	// Use this for initialization
 	void Start () {
         destinations = GameObject.FindGameObjectsWithTag("Waypoint");
         player = GameObject.FindWithTag("Player");
+        animator = GetComponent<Animator>();
 
         destination = destinations[Random.Range(0, destinations.Length)].transform;
 	}
@@ -34,6 +36,19 @@ public class FollowDestination : MonoBehaviour {
         Debug.DrawRay(transform.position, newDirection, Color.red);
         transform.rotation = Quaternion.LookRotation(newDirection);
 
+        animator.SetFloat("distance", targetDirection.magnitude);
 
-	}
+        //CAMBIO DE RUTA 
+        if (targetDirection.magnitude < 0.5f)
+        {
+            float rnd = Random.Range(0, 2);
+            if (rnd < 1)
+            {
+                destination = destinations[Random.Range(0, destinations.Length)].transform;
+            }else{
+                destination = player.transform;
+            }
+        }
+
+    }
 }
